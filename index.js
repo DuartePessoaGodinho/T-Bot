@@ -20,6 +20,10 @@ client.on('messageCreate', msg => {
         msg.reply('O que é que queres do boss ?');
         // msg.channel.send('new commit');
     }
+
+    if (message === '!stream') {
+        msg.channel.send('Stream do r3voltec: https://twitch.tv/r3voltec');
+    }
 })
 
 
