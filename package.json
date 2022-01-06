@@ -1,0 +1,30 @@
+{
+  "name": "t-bot",
+  "version": "1.0.0",
+  "description": "Simple Discord Bot",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DuartePessoaGodinho/T-Bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DuartePessoaGodinho/T-Bot/issues"
+  },
+  "homepage": "https://github.com/DuartePessoaGodinho/T-Bot#readme",
+  "dependencies": {
+    "discord.js": "^13.5.0",
+    "dotenv": "^10.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
