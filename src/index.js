@@ -52,10 +52,10 @@ client.on('interactionCreate', interaction => {
     if (!interaction.isCommand()) return;
 
     const { commandName, options } = interaction;
-    const streamer = options.getString('streamer');
+    const streamerPicked = options.getString('streamer');
 
     if (commandName === 'stream') {
-        if (streamer.toLowerCase().includes('duarte') || streamer.toLowerCase().includes('r3voltec')) {
+        if (streamerPicked.toLowerCase().includes('duarte') || streamer.toLowerCase().includes('r3voltec')) {
             interaction.reply({
                 content: 'https://www.twitch.tv/r3voltec',
             })
